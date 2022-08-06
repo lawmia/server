@@ -1,144 +1,130 @@
-# Nextcloud Server ☁
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nextcloud/server/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nextcloud/server/?branch=master)
-[![codecov](https://codecov.io/gh/nextcloud/server/branch/master/graph/badge.svg)](https://codecov.io/gh/nextcloud/server)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/209/badge)](https://bestpractices.coreinfrastructure.org/projects/209)
+# Serveur Lawmia 🧑‍⚖️
 
-**A safe home for all your data.**
+**Le meuilleur outils pour les avocats.**
 
-![](https://raw.githubusercontent.com/nextcloud/screenshots/master/files/Files%20Sharing.png)
+## Fonctionalités principales 😎
 
-## Why is this so awesome? 🤩
+* 📁 **Stockez et organisez vos données** | Vous pouvez stocker vos fichiers, dossiers clients, calendriers et plus.
+* 🔧 **Trousse à outils** | Planificateur de tâches, signature électronique, gestionnaire de PDF, chronomètres multiples, dictaphone et bien plus encore.
+* 🙌 **Collaborez avec les autres** | …en donnant aux autres avocats l'accès aux fichiers et dossiers dont vous autorisez le visionnage ou la modification dans vos dossiers client.
+* 🔒 **Sécurité** | Avec des systèmes de chiffrement, [HackerOne bounty program](https://hackerone.com/nextcloud) et authentification à deux facteurs.
 
-* 📁 **Access your Data** You can store your files, contacts, calendars and more on a server of your choosing.
-* 🔄 **Sync your Data** You keep your files, contacts, calendars and more synchronized amongst your devices.
-* 🙌 **Share your Data** …by giving others access to the stuff you want them to see or to collaborate with.
-* 🚀 **Expandable with hundreds of Apps** ...like [Calendar](https://github.com/nextcloud/calendar), [Contacts](https://github.com/nextcloud/contacts), [Mail](https://github.com/nextcloud/mail), [Video Chat](https://github.com/nextcloud/spreed) and all those you can discover in our [App Store](https://apps.nextcloud.com)
-* 🔒 **Security** with our encryption mechanisms, [HackerOne bounty program](https://hackerone.com/nextcloud) and two-factor authentication.
+Vous voulez en savoir plus sur comment vous pouvez utiliser Lawmia pour amelliorer la sécurité et la productivité de votre cabinet ? [**Découvrez toutes nos fonctionnalitées**](https://lawmia.fr/features).
 
-You want to learn more about how you can use Nextcloud to access, share and protect your files, calendars, contacts, communication & more at home and at your organization? [**Learn about all our Features**](https://nextcloud.com/athome/).
+## Testez Lawmia gratuitement 🎁
+* 🎁 [**Demo**](https://lawmia.fr/demo/) | Navigez à traver notre environnement de démonstartion pour voir par vous même à quoi Lawmia ressemble et comment il s'utilise.
+* 🎁🖥 [**Compte d'essai**](https://lawmia.fr/trial/) | Créez un compte pour votre cabinet et obtenez gratuitement votre serveur Lawmia pour votre cabinet. 
 
-## Get your Nextcloud 🚚
+## Récupérez votre Lawmia 📦
 
-- ☑️ [**Simply sign up**](https://nextcloud.com/signup/) at one of our providers either through our website or through the apps directly.
-- 🖥 [**Install** a server by yourself](https://nextcloud.com/install/#instructions-server) on your own hardware or by using one of our ready to use **appliances**
-- 📦 Buy one of the [awesome **devices** coming with a preinstalled Nextcloud](https://nextcloud.com/devices/)
-- 🏢 Find a [service **provider**](https://nextcloud.com/providers/) who hosts Nextcloud for you or your company
+- ☑️ [**Choisissez**](https://lawmia.fr/signup/) simplement les services proposés par Lawmia services qui vous intéressent (hébergement, formation, customisation, installation, développement de fonctionnalités).
+- 🖥 [**Installez**](https://lawmia.fr/install/#instructions-server) un serveur par vous-même sur votre infrastructure.
 
-Enterprise? Public Sector or Education user? You may want to have a look into [**Nextcloud Enterprise**](https://nextcloud.com/enterprise/) provided by Nextcloud GmbH.
+Vous pouvez aussi [nous contactez si vous avez des questions sur Lawmia](https://lawmia.fr/support) !
 
-## Get in touch 💬
+## Rejoignez l'équipe 👪
 
-* [📋 Forum](https://help.nextcloud.com)
-* [👥 Facebook](https://www.facebook.com/nextclouders)
-* [🐣 Twitter](https://twitter.com/Nextclouders)
-* [🐘 Mastodon](https://mastodon.xyz/@nextcloud)
+Il y a plein de manières de contribuer au projet 🙌 le développement est l'un d'eux ! Découvrez [comment vous pouvez contribuer](https://lawmia.fr/contribute/), nottament en tant que designer (UX/UI), testeur et plus encore. 😍 
 
-You can also [get support for Nextcloud](https://nextcloud.com/support)!
+## Notre lien avec Nextcloud
 
+Parce-que ce projet est un fork de nextcloud les guides qu'il proposent pour l'envirennement de développement conviennent à la mise en place d'un environnement de développement pour Lawmia. Les auteurs indiqués dans le code de Lawmia peuvent être des auteurs du code de Nextcloud il faut les laisser.
 
-## Join the team 👪
+### Environnement de développement 👩‍💻
 
-There are many ways to contribute, of which development is only one! Find out [how to get involved](https://nextcloud.com/contribute/), including as translator, designer, tester, helping others and much more! 😍
+1. 🏗️ [Mettez en place votre environnement de développement local](https://docs.nextcloud.com/server/latest/developer_manual/getting_started/devenv.html)
+2. 💡 [Choisissez une bonne idée d'amellioration](https://github.com/lawmia/lawmia-server/labels/good%20improvement%20idea)
+3. 👩‍🔧 Créez une branche et faites vos changements. Souvenez-vous de signer vos commits avec `git commit -sm "Votre message de commit"`
+4. ⬆ Créez un [une demande de pull](https://opensource.guide/how-to-contribute/#opening-a-pull-request) et `@mentionez` les personnes qui on émis la demande pour une revue dans changements proposés.
+5. 👍 Réparez les problèmes soulevés durant l'analyse.
+6. 🎉 Puis attendez que vos changements soit ajoutés !
 
+Nous avons choisi de garder le mode de fonctionnement de Nextcloud pour les applications, il y a donc plusieurs applications qui ne sont pas incluse dans la branche `master`, elles on chacunes un git pour pouvoir facilement suivre le développement de chacunes comme [le programme de première connexion](https://github.com/lawmia/premiereconnexion) ou [les dossiers client](https://github.com/lawmia/files_clients). Dans la version finale toutes les applications sont ajoutées dans le dossier `apps` puis le fichier de configuration défini quelles fonctionalitées sont activées ou non.
 
-### Development setup 👩‍💻
+Sinon, les git checkouts peuvent être utilisées comme les packets de version, il fau juste utiliser les branches `stable*`. Cependant il ne faut pas les utiliser sur un environnement de production.
 
-1. 🚀 [Set up your local development environment](https://docs.nextcloud.com/server/latest/developer_manual/getting_started/devenv.html)
-2. 🐛 [Pick a good first issue](https://github.com/nextcloud/server/labels/good%20first%20issue)
-3. 👩‍🔧 Create a branch and make your changes. Remember to sign off your commits using `git commit -sm "Your commit message"`
-4. ⬆ Create a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request) and `@mention` the people from the issue to review
-5. 👍 Fix things that come up during review
-6. 🎉 Wait for it to get merged!
+### Travailler sur le code front-end 🤗
 
-Third-party components are handled as git submodules which have to be initialized first. So aside from the regular git checkout invoking `git submodule update --init` or a similar command is needed, for details see Git documentation.
-
-Several apps that are included by default in regular releases such as [First run wizard](https://github.com/nextcloud/firstrunwizard) or [Activity](https://github.com/nextcloud/activity) are missing in `master` and have to be installed manually by cloning them into the `apps` subfolder.
-
-Otherwise, git checkouts can be handled the same as release archives, by using the `stable*` branches. Note they should never be used on production systems.
-
-### Working with front-end code 🏗
+Nous ajoutons le code de [Nextcloud](https://github.com/nextcloud/server), ce qui est pertinant dans notre situation pour exploiter l'avantage principal de la communauté opensource.
 
 #### Building
 
-We are moving more and more towards using Vue.js in the frontend, starting with Settings. For building the code on changes, use these terminal commands in the root folder:
+Nextcloud migre de plus en plus son code vers l'utilisation de Vue.js pour le frontend, nous suivons ce mouvement qui permet de simplifier le développement futur, ils commencent par les paramètres. Pour construire le code après un changement utilisez les commandes ci-dessous dans la racine du dossier Lawmia à l'aide d'un terminal :
 
 ```bash
-# install dependencies
+# installation des dépendances
 make dev-setup
 
-# build for development
+# build pour le développement
 make build-js
 
-# build for development and watch edits
+# build pour le développement et suivre les modifs
 make watch-js
 
-# build for production with minification
+# build pour la production avec miniaturisation
 make build-js-production
 ```
 
-#### Committing changes
+#### Envoi des modifications (commit)
 
-**When making changes, also commit the compiled files!**
+**Quand vous envoyez vos modification, pensez à y inclure les fichers compilés!**
 
-We still use Handlebars templates some places in Files and Settings. We will replace these step-by-step with Vue.js, but in the meantime you need to compile them separately.
+Pour le moment les tempalates Handlebars sont encore utilisé dans certains endroits nottament dans Files et Settings. Ils sont progressivement remplacé par Vue.js mais pour le moment il faut les compiler séparément.
 
-If you don’t have Handlebars installed yet, you can do it with this terminal command:
+Si Handlebars n'est pas encore installé il faut utiliser la commande suivante dans le terminal :
 ```bash
 sudo npm install -g handlebars
 ```
-
-Then inside the root folder of your local Nextcloud development installation, run this command in the terminal every time you changed a `.handlebars` file to compile it:
+Ensuite dans la racine de votre dossier de développement de lawmia exécutez cette commande à chaque changement de fichier `.handlebars` pour le compiler :
 ```bash
 ./build/compile-handlebars-templates.sh
 ```
-
-Before checking in JS changes, make sure to also build for production:
+Avant de vérifier les modif en JS il faut également construire Lawmia pour la production :
 ```bash
 make build-js-production
 ```
-Then add the compiled files for committing.
+Puis ajoutez les fichiers compilés pour votre commit.
 
-To save some time, to only rebuild for a specific app, use the following and replace the module with the app name:
+Pour gagner du temp et construire juste une application vous pouvez utiliser la commande suivante en remplacant le module par le nom de l'application :
 ```bash
 MODULE=user_status make build-js-production
 ```
 
-Please note that if you used `make build-js` or `make watch-js` before, you'll notice that a lot of files were marked as changed, so might need to clear the workspace first.
+Si vous avez déjà utilisé `make build-js` ou `make watch-js` vous remarquerez que beacoup de fichiers seront noté comme différent, il faut d'abord nettoyer votre espace de travail avant de commit.
 
-### Working with back-end code 🏗
+### Travailler sur le code back-end 🏗️
 
-When changing back-end PHP code, in general no additional steps are needed before checking in.
+Quand vous changez le code PHP du back-end normalement il n'y a rien à faire de spécial avant de vérifier que ça fonctionne.
 
-However, if new files were created, you will need to run the following command to update the autoloader files:
+Cependant si de nouveaux fichiers sont créé il va falloir executer la commande suivante pour mettre à jour les fichier autoloader :
 ```bash
 build/autoloaderchecker.sh
 ```
 
-After that, please also include the autoloader file changes in your commits.
+Après cela , s'il vous plaît pensez à inclure vos fichiers autoloader avant votre commit.
 
-### Tools we use 🛠
+### Les outils utilisés 🛠️
 
-- [👀 BrowserStack](https://browserstack.com) for cross-browser testing
-- [🌊 WAVE](https://wave.webaim.org/extension/) for accessibility testing
-- [🚨 Lighthouse](https://developers.google.com/web/tools/lighthouse/) for testing of performance, accessibility and more
+- [👀 BrowserStack](https://browserstack.com) pour les tests multi navigateur
+- [🌊 WAVE](https://wave.webaim.org/extension/) pour les tests d'accesibilité
+- [🚨 Lighthouse](https://developers.google.com/web/tools/lighthouse/) pour les tests d'accesibilité, performance et plus
 
 
-## Contribution guidelines 📜
+## Règles pour les contributions 📜
 
-All contributions to this repository from June, 16 2016 on are considered to be
-licensed under the AGPLv3 or any later version.
+Toutes les contributions à ce repository sont sous la licence AGPLv3 ou tout autre version ultérieur.
 
-Nextcloud doesn't require a CLA (Contributor License Agreement).
-The copyright belongs to all the individual contributors. Therefore we recommend
-that every contributor adds following line to the header of a file, if they
-changed it substantially:
+Lawmia de requière pas d'ALC (Accord de Licence Contributeur).
+Les copyright appartiennent à tous les contributeurs individuels.
+En l'espèce nous requièrons que chaque contributeur ajoute la ligne suivante dans chaque entête de fichier dès qu'un changement majeur y a été effectué :
 
 ```
-@copyright Copyright (c) <year>, <your name> (<your email address>)
+@copyright Copyright (c) <annéer>, <Votre nom prénom> (<votre adresse mail>)
 ```
 
-Please read the [Code of Conduct](https://nextcloud.com/community/code-of-conduct/). This document offers some guidance to ensure Nextcloud participants can cooperate effectively in a positive and inspiring atmosphere, and to explain how together we can strengthen and support each other.
+Veuillez lire le [code de bonne conduite](https://nextcloud.com/community/code-of-conduct/).
+Ce document permet de s'assurer que tous le monde puisse contribuer de manière efficiente dans une atmosphère positive et inspirante. Il explique également comment ensemble nous pouvons devenir plus fort et s'aider.ere, and to explain how together we can strengthen and support each other.
 
-Please review the [guidelines for contributing](.github/CONTRIBUTING.md) to this repository.
+S'il-vous-plaît lisez également [les règles de la contribution](.github/CONTRIBUTING.md) de ce dépôt.
 
-More information how to contribute: [https://nextcloud.com/contribute/](https://nextcloud.com/contribute/)
+Plus d'info sur la contribution : [https://nextcloud.com/contribute/](https://nextcloud.com/contribute/)
