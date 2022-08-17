@@ -19,6 +19,7 @@
     "Target folder \"{dir}\" does not exist any more" : "対象フォルダー \"{dir}\" がもう存在しません",
     "Not enough free space" : "十分な空き容量がありません",
     "An unknown error has occurred" : "不明なエラーが発生しました",
+    "File could not be uploaded" : "ファイルをアップロードできませんでした",
     "Uploading …" : "アップロード中...",
     "{loadedSize} of {totalSize} ({bitrate})" : "{totalSize} 中 {loadedSize} ({bitrate})",
     "Uploading that item is not supported" : "そのアイテムのアップロードに対応していません",
@@ -185,7 +186,6 @@
     "Templates" : "テンプレート",
     "Unable to initialize the templates directory" : "テンプレートディレクトリを初期化できませんでした",
     "%s used" : "%s 使用中",
-    "%s%% of %s used" : "%s%% 使用中、全体は%s",
     "%1$s of %2$s used" : "%2$s 中%1$s 使用中",
     "Show hidden files" : "隠しファイルを表示",
     "Crop image previews" : "プレビュー画像を切り抜く",
@@ -214,6 +214,7 @@
     "You don’t have permission to upload or create files here" : "ここにファイルをアップロードまたは作成する権限がありません",
     "New" : "新規作成",
     "Cannot transfer ownership of a file or folder you don't own" : "所有していないファイルまたはフォルダーの所有権を譲渡することはできません",
+    "%s%% of %s used" : "%s%% 使用中、全体は%s",
     "Settings" : "設定"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

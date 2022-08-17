@@ -77,6 +77,7 @@ OC.L10N.register(
     "_including %n hidden_::_including %n hidden_" : ["включително %n скрит","включително %n скрити"],
     "You do not have permission to upload or create files here" : "Нямате право да качвате или създавате файлове тук",
     "_Uploading %n file_::_Uploading %n files_" : ["Качване на %n файл","Качване на %n файла"],
+    "New file/folder menu" : "Ново меню за файл/папка",
     "Select file range" : "Избери от файловете",
     "{used} of {quota} used" : "{used} от {quota} използвани",
     "{used} used" : "{used} използвани",
@@ -188,8 +189,8 @@ OC.L10N.register(
     "Templates" : "Шаблони",
     "Unable to initialize the templates directory" : "Неуспешно инициализиране на директорията с шаблони",
     "%s used" : "%s използвани",
-    "%s%% of %s used" : "%s%% от %s използвани",
     "%1$s of %2$s used" : "%1$s от %2$s използвани",
+    "Files settings" : "Настройки на файловете",
     "Show hidden files" : "Показвай и скрити файлове",
     "Crop image previews" : "Изрязване на визуализациите на изображение",
     "WebDAV" : "WebDAV",
@@ -217,6 +218,7 @@ OC.L10N.register(
     "You don’t have permission to upload or create files here" : "Нямаш разрешение да създаваш или качваш файлове тук.",
     "New" : "Създай",
     "Cannot transfer ownership of a file or folder you don't own" : "Не можете да прехвърляте собственост върху файл или папка, които не притежавате",
+    "%s%% of %s used" : "%s%% от %s използвани",
     "Settings" : "Настройки"
 },
 "nplurals=2; plural=(n != 1);");

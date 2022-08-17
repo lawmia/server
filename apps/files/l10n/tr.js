@@ -77,6 +77,7 @@ OC.L10N.register(
     "_including %n hidden_::_including %n hidden_" : ["%n gizli ile birlikte","%n gizli ile birlikte"],
     "You do not have permission to upload or create files here" : "Buraya dosya yükleme ya da ekleme izniniz yok",
     "_Uploading %n file_::_Uploading %n files_" : ["%n dosya yükleniyor","%n dosya yükleniyor"],
+    "New file/folder menu" : "Yeni dosya/klasör menüsü",
     "Select file range" : "Dosya aralığını seçin",
     "{used} of {quota} used" : "{used} / {quota} kullanılmış",
     "{used} used" : "{used} kullanılmış",
@@ -188,7 +189,6 @@ OC.L10N.register(
     "Templates" : "Kalıplar",
     "Unable to initialize the templates directory" : "Kalıp klasörü hazırlanamadı",
     "%s used" : "%s kullanılıyor",
-    "%s%% of %s used" : "%s%%/%s kullanılmış",
     "%1$s of %2$s used" : "%1$s / %2$s kullanıldı",
     "Files settings" : "Dosyalar ayarları",
     "Show hidden files" : "Gizli dosyaları görüntüle",
@@ -218,6 +218,7 @@ OC.L10N.register(
     "You don’t have permission to upload or create files here" : "Buraya dosya yükleme ya da ekleme izniniz yok",
     "New" : "Yeni",
     "Cannot transfer ownership of a file or folder you don't own" : "Sahibi olmadığınız bir dosya ya da klasörün sahipliğini aktaramazsınız",
+    "%s%% of %s used" : "%s%%/%s kullanılmış",
     "Settings" : "Ayarlar"
 },
 "nplurals=2; plural=(n > 1);");

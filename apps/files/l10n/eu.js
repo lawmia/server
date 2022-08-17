@@ -13,7 +13,7 @@ OC.L10N.register(
     "Favorites" : "Gogokoak",
     "Could not create folder \"{dir}\"" : "Ezin izan da \"{dir}\" karpeta sortu",
     "This will stop your current uploads." : "Honek martxan dauzkazun igoerak geldituko ditu.",
-    "Upload cancelled." : "Igoera bertan behera utzi da.",
+    "Upload cancelled." : "Karga bertan behera utzi da.",
     "Processing files …" : "Fitxategiak prozesatzen...",
     "…" : "…",
     "Unable to upload {filename} as it is a directory or has 0 bytes" : "Ezin da {filename} kargatu karpeta bat delako edo 0 byte dituelako",
@@ -77,6 +77,7 @@ OC.L10N.register(
     "_including %n hidden_::_including %n hidden_" : ["ezkutuko %n barne","ezkutuko %n barne"],
     "You do not have permission to upload or create files here" : "Ez duzu hemen fitxategiak kargatzeko edo sortzeko baimenik",
     "_Uploading %n file_::_Uploading %n files_" : ["Fitxategi %n kargatzen","%n fitxategi kargatzen"],
+    "New file/folder menu" : "Fitxategi/karpeta berri menua",
     "Select file range" : "Hautatu fitxategi-barrutia",
     "{used} of {quota} used" : "{used} / {quota} erabilita",
     "{used} used" : "{used} erabilita",
@@ -188,7 +189,6 @@ OC.L10N.register(
     "Templates" : "Txantiloia",
     "Unable to initialize the templates directory" : "Ezin da txantiloien direktorioa hasieratu",
     "%s used" : "%s erabilita",
-    "%s%% of %s used" : "%s%% / %s erabilita",
     "%1$s of %2$s used" : "%1$s / %2$s erabilita",
     "Files settings" : "FItxategien ezarpenak",
     "Show hidden files" : "Erakutsi ezkutuko fitxategiak",
@@ -218,6 +218,7 @@ OC.L10N.register(
     "You don’t have permission to upload or create files here" : "Ez duzu baimenik fitxategiak hona kargatu edo hemen sortzeko",
     "New" : "Berria",
     "Cannot transfer ownership of a file or folder you don't own" : "Ezin da zurea ez den fitxategi edo karpeta baten jabetza transferitu",
+    "%s%% of %s used" : "%s%% / %s erabilita",
     "Settings" : "Ezarpenak"
 },
 "nplurals=2; plural=(n != 1);");

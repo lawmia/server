@@ -39,6 +39,8 @@ OC.L10N.register(
     "Could not load info for file \"{file}\"" : "No s'ha pogut carregar la informació del fitxer «{file}»",
     "Files" : "Fitxers",
     "Details" : "Detalls",
+    "Show list view" : "Mostra en vista de llista",
+    "Show grid view" : "Mostra en vista de graella",
     "Please select tag(s) to add to the selection" : "Seleccioneu les etiquetes que voleu afegir a la selecció",
     "Apply tag(s) to selection" : "Aplica les etiquetes a la selecció",
     "Select directory \"{dirName}\"" : "Selecciona la carpeta «{dirName}»",
@@ -185,7 +187,6 @@ OC.L10N.register(
     "Templates" : "Plantilles",
     "Unable to initialize the templates directory" : "No s'ha pogut inicialitzar la carpeta de plantilles",
     "%s used" : "%s en ús",
-    "%s%% of %s used" : "%s%% de %s en ús",
     "%1$s of %2$s used" : "%1$s de %2$s en ús",
     "Show hidden files" : "Mostra els fitxers ocults",
     "Crop image previews" : "Retalla les previsualitzacions de les imatges",
@@ -214,6 +215,7 @@ OC.L10N.register(
     "You don’t have permission to upload or create files here" : "No teniu permís per a pujar o crear fitxers aquí",
     "New" : "Nou",
     "Cannot transfer ownership of a file or folder you don't own" : "No es pot transferir la propietat d'un fitxer o carpeta que no és vostre",
+    "%s%% of %s used" : "%s%% de %s en ús",
     "Settings" : "Paràmetres"
 },
 "nplurals=2; plural=(n != 1);");

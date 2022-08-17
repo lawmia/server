@@ -151,6 +151,7 @@ use OC\SystemTag\ManagerFactory as SystemTagManagerFactory;
 use OC\Tagging\TagMapper;
 use OC\Talk\Broker;
 use OC\Template\JSCombiner;
+use OC\User\DisplayNameCache;
 use OC\User\Listeners\UserChangedListener;
 use OC\User\Listeners\UserDeletedListener;
 use OCA\Theming\ImageManager;
@@ -353,7 +354,7 @@ class Server extends ServerContainer implements IServerContainer {
 			return new Profiler($c->get(SystemConfig::class));
 		});
 
-		$this->registerService(\OCP\Encryption\IManager::class, function (Server $c) {
+		$this->registerService(\OCP\Encryption\IManager::class, function (Server $c): Encryption\Manager {
 			$view = new View();
 			$util = new Encryption\Util(
 				$view,
@@ -473,6 +474,10 @@ class Server extends ServerContainer implements IServerContainer {
 		/** @deprecated 19.0.0 */
 		$this->registerDeprecatedAlias('UserManager', \OC\User\Manager::class);
 		$this->registerAlias(\OCP\IUserManager::class, \OC\User\Manager::class);
+
+		$this->registerService(DisplayNameCache::class, function (ContainerInterface $c) {
+			return $c->get(\OC\User\Manager::class)->getDisplayNameCache();
+		});
 
 		$this->registerService(\OCP\IGroupManager::class, function (ContainerInterface $c) {
 			$groupManager = new \OC\Group\Manager(

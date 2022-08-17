@@ -21,6 +21,7 @@ OC.L10N.register(
     "Target folder \"{dir}\" does not exist any more" : "目标目录 \"{dir}\" 不存在",
     "Not enough free space" : "可用空间不足",
     "An unknown error has occurred" : "发生了未知错误。",
+    "File could not be uploaded" : "文件无法上传",
     "Uploading …" : "正在上传...",
     "{loadedSize} of {totalSize} ({bitrate})" : "{loadedSize} / {totalSize} ({bitrate})",
     "Uploading that item is not supported" : "不支持上传此项目",
@@ -43,6 +44,7 @@ OC.L10N.register(
     "Show grid view" : "显示网格视图",
     "Please select tag(s) to add to the selection" : "请选择要添加到所选项目的标签",
     "Apply tag(s) to selection" : "将标签应用到所选项目",
+    "Select directory \"{dirName}\"" : "选择目录 \"{dirName}\"",
     "Pending" : "等待",
     "Unable to determine date" : "无法确定日期",
     "This operation is forbidden" : "该操作被禁止",
@@ -183,7 +185,6 @@ OC.L10N.register(
     "Templates" : "模板",
     "Unable to initialize the templates directory" : "无法初始化模板目录",
     "%s used" : "已使用 %s",
-    "%s%% of %s used" : "%s 已使用 %s 中的 %%",
     "%1$s of %2$s used" : "已使用 %2$s 中的 %1$s",
     "Show hidden files" : "显示隐藏文件",
     "Crop image previews" : "裁剪图片预览",
@@ -212,6 +213,7 @@ OC.L10N.register(
     "You don’t have permission to upload or create files here" : "您没有权限在此上传或创建文件",
     "New" : "新建",
     "Cannot transfer ownership of a file or folder you don't own" : "无法转让您未拥有的文件或文件夹的所有权",
+    "%s%% of %s used" : "%s 已使用 %s 中的 %%",
     "Settings" : "设置"
 },
 "nplurals=1; plural=0;");
